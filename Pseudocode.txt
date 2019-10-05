@@ -1,0 +1,27 @@
+UI
+-Start Screen
+-Press button to start game
+-Game webpage for browser (HTML/CSS)
+
+Hangman Game
+-Show number of characters for word being guessed
+	-word is choosen at random by game
+-Display letter counter
+	-Remaining letters
+	-Wrong letters
+-Compare letters guessed with answer key
+	-reveals correct chars and location of
+-Limit of guesses
+-Letters only
+
+Bonus
+-Victory Screen
+-Loser Screen
+-Animation of losing
+
+\\
+Draft 3
+-make array
+-rename event key to playerGuess
+set up conditional to name if player guess is right it inputs data
+-also if wrong letter than it notifies user
