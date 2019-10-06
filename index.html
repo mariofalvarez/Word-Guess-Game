@@ -5,9 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
   <!-- CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -16,14 +13,20 @@
 <body>
   
   <!-- Quality Content -->
-  <main>
-    <h1>Word Guess Game</h1>
-    <p>Guess the doggos.</p>
-    
-    <p>Number of guesses left: <span class="remaining-guesses">10</span></p>
-    <p>Current Words: <span class="correct-letters">_</span></p>
-    <p>Incorrect letters: <span class="wrong-letters">_</span></p>
-  </main>
+<main>
+  <div class="container">
+    <h1>Word Guess Game: World Map Edition</h1>
+    <p>Press any key to get started!</p>
+
+    <!-- When user presses any key, start game -->
+    <h4>Name the Continent: <span class="correct-letters">_</span></h4>
+    <h4>Wrong Guesses: <span class="wrong-letters">_</span></>
+    <h4>Guesses Remaining: <span class="remaining-guesses">10</span></h4>
+
+  </div>
+</main>
+
+  <img class="image" src="./assets/img/world-map.png" > 
   
   <!-- Javacript -->
   <script src="./assets/javascript/game.js"></script>

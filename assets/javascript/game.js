@@ -9,10 +9,10 @@ Bugs Life
 */
 
 //Varuables and Array list
-var wordList = ["doggo", "woofer", "floofer", "subwoofer", "sleepyboi", "chonker", "pupper"];
+var wordList = ["africa", "antartica", "asia", "austrailia", "europe", "northamerica", "southamerica"];
 var randomWord = wordList[Math.floor(Math.random() * wordList.length)];
 console.log(randomWord); // Test: reveals randomly selected word
-var numberOfGuesses = 10;
+var numberOfGuesses = 15;
 var wrongGuesses = [];
 var underscore = [];
 var wins = 0;
@@ -34,7 +34,6 @@ console.log(answer); // Test: Underscore lines to replace word characters
 // Key input to keep track of player inputs
 document.onkeyup = function(e) {
 
-  // if(guessandcorrect.contains(e.key === true)) // create a conditional tostop assigning points after crrect letter guesss
   var playerGuess = e.key;
   
   // Conditional to test player guess vs the random word selected
