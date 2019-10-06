@@ -14,13 +14,12 @@ Hangman Game
 -Limit of guesses
 -Letters only
 
-Bonus
+/ Bonus - if you have additional time left /
 -Victory Screen
 -Loser Screen
 -Animation of losing
 
-\\
-Draft 3
+/ Edit 2 /
 -make array
 -rename event key to playerGuess
 set up conditional to name if player guess is right it inputs data
